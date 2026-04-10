@@ -92,21 +92,20 @@
         <h1>Monster Puzzle Support</h1>
         <p class="subtitle">We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
 
-        <form action="https://formsubmit.co/talha.demirezen@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="Monster Puzzle Support Request">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="https://tdemirezen.github.io/monster-puzzle-web/support-thanks.html">
-            <input type="text" name="_honey" style="display:none">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="594d31d8-fa50-4057-9758-da3179540b28">
+            <input type="hidden" name="subject" value="Monster Puzzle Support Request">
+            <input type="hidden" name="redirect" value="https://tdemirezen.github.io/monster-puzzle-web/support-thanks.html">
+            <input type="checkbox" name="botcheck" style="display:none">
 
-            <label for="name">Your Name</label>
-            <input type="text" name="Name" placeholder="Enter your name" required>
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
 
-            <label for="email">Email Address</label>
-            <input type="email" name="Email" placeholder="your@email.com" required>
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="your@email.com" required>
 
-            <label for="topic">Topic</label>
-            <select name="Topic" required>
+            <label>Topic</label>
+            <select name="topic" required>
                 <option value="" disabled selected>Select a topic</option>
                 <option value="Bug Report">Bug Report</option>
                 <option value="Feature Request">Feature Request</option>
@@ -116,11 +115,11 @@
                 <option value="Other">Other</option>
             </select>
 
-            <label for="device">Device Info (optional)</label>
-            <input type="text" name="Device" placeholder="e.g. iPhone 15, iPad Air, Samsung Galaxy S24">
+            <label>Device Info (optional)</label>
+            <input type="text" name="device" placeholder="e.g. iPhone 15, iPad Air, Samsung Galaxy S24">
 
-            <label for="message">Message</label>
-            <textarea name="Message" placeholder="Please describe your issue or feedback in detail..." required></textarea>
+            <label>Message</label>
+            <textarea name="message" placeholder="Please describe your issue or feedback in detail..." required></textarea>
 
             <button type="submit">Send Message</button>
         </form>
